@@ -4,6 +4,8 @@
 ### commands
 - `sm_saytext <message>` - displays a client-sided chat message
 - `sm_saytext help` - show detailed help and color reference
+- `sm_saytex` - show usage examples
+
 ### color codes
 | color | standard code | hex code |
 |-------|---------------|----------|
@@ -38,11 +40,10 @@ alias "spin_off" "bind mouse1 +attack; bind mouse2 +attack2; -left; -right; alia
 ```
 
 ## requirements
-- sourcemod 1.10 or higher
+- sourcemod 2.0 dev or higher (1.12.0-git+ recommended)
 - game with sourcemod support ( css, tf2, etc. )
 
 ## Installation
 1. download the latest release from the releases
 2. place the `.smx` file in `sourcemod/plugins/`
-
 3. restart the server or use `sm plugins load sm_saytext`
